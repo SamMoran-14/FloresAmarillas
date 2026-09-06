@@ -4,14 +4,12 @@ function crearFlor() {
   const flor = document.createElement('div');
   flor.classList.add('flor');
 
-  // Contenedor principal de la cabeza de la flor
   const cabezaFlor = document.createElement('div');
   cabezaFlor.classList.add('cabeza-flor');
 
   const centro = document.createElement('div');
   centro.classList.add('centro');
 
-  // Generar 12 pétalos alineados
   const totalPetalos = 12;
   for (let i = 0; i < totalPetalos; i++) {
     const petalo = document.createElement('div');
@@ -32,7 +30,6 @@ function crearFlor() {
   jardin.appendChild(flor);
 }
 
-// Genera 5 flores alineadas correctamente
 for (let i = 0; i < 5; i++) {
   crearFlor();
 }

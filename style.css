@@ -75,3 +75,28 @@ body {
     opacity: 1;
   }
 }
+
+.btn-carta {
+  position: absolute;
+  top: 15%; /* Controla la altura respecto a la parte superior */
+  left: 50%;
+  transform: translateX(-50%); /* Centra el botón horizontalmente */
+  
+  padding: 12px 24px;
+  background-color: #ffd54f;
+  color: #3e2723;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(255, 213, 79, 0.4);
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.btn-carta:hover {
+  background-color: #ffca28;
+  transform: translateX(-50%) scale(1.08);
+  box-shadow: 0 6px 20px rgba(255, 213, 79, 0.6);
+}
